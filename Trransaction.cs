@@ -7,7 +7,14 @@ using System.Threading.Tasks;
 
     public class Trransaction
     {
-    public float val;
-    public int month;
+    private float val;
+    private DateTime date;
+    
+    // setter 
+    public void setVal(float val) { this.val = val; }
+    public void setDate(DateTime date) {  this.date = date; }
+    // getter
+    public float getVal() { return val; }
+    public DateTime getDate() { return date; }
     }
 
